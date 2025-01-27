@@ -1,0 +1,19 @@
+.menu {
+  min-width: 980px;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #B9B493;
+}
+
+.menu_img {
+  background-image: url("../../public/homeImg/menuGpt.webp");
+  height: 1300px;
+  width: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}

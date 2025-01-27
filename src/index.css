@@ -1,0 +1,315 @@
+* {
+  margin: 0px;
+  font-size: 18px;
+  font-family: helvetica-w01-roman, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-class {
+  display: flex;
+  flex-direction: column;
+  min-width: 980px;
+}
+
+/** HEADER **/
+header {
+  height: 80px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  width: 17%;
+  font-weight: bold;
+}
+
+.logo p {
+  width: 60%;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  width: 78%;
+}
+
+.navlinks,
+.icons {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px
+}
+
+.nav .navlinks:hover {
+  color: blue;
+}
+
+.order-tag {
+  width: 9%;
+}
+
+
+
+/** FOOTER **/
+.footer {
+  background-color: rgb(1, 66, 53);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  min-width: 980px;
+}
+
+
+/** HOME **/
+#Home {
+  background-color: #B9B493;
+}
+
+/** order online **/
+.order-tag-el {
+  height: 100px;
+  position: fixed;
+  top: 20px;
+  right: -30px;
+  width: 150px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+  transform-origin: top, right;
+  cursor: pointer;
+}
+
+/** welcome image **/
+.tableDinner {
+  height: 950px;
+  background-image: url("../public/homeImg/image.png");
+  background-size: cover;
+}
+
+
+/** card container **/
+.cardContainer {
+  /* background-color: rgb(164, 95, 83); */
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card1,
+.card2,
+.card3 {
+  margin-top: 60px;
+  margin: 30px;
+  height: 440px;
+  background-color: white;
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+.paraH {
+  padding: 10px;
+  margin: 10px;
+}
+
+.headH {
+  padding: 10px;
+  margin: 10px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+
+/** original recipe section **/
+.originalH {
+  height: 465px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.originalH span {
+  width: 844px;
+  font-size: 80px;
+  color: rgb(1, 66, 53);
+  font-weight: 800;
+  font-family: helvetica-w01-bold, sans-serif;
+  text-align: center;
+}
+
+
+/** all time favourite section**/
+.favH {
+  width: 90%;
+  height: 794px;
+  background-color: white;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.favH span {
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contFH {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.foodCont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contFH label {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.menuBH {
+  background-color: black;
+  width: 230px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 38%;
+}
+
+.menuBH a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/** special week section**/
+.specialWeek {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+
+.cardSW {
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.special-way {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.special-way .star {
+  margin: 10px;
+}
+
+.special-icecream {
+  width: 42%;
+}
+
+.cardSW span {
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.cardSW p {
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+
+
+/** craving deliver**/
+.craving {
+  height: 505px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgba(154, 174, 236, 0.877);
+  display: flex;
+}
+
+.craving-1 {
+  height: 580px;
+}
+
+.craving-img {
+  height: 505px;
+  width: 65%;
+  background-size: cover;
+  background-image: url("../public/homeImg/deliveryImage.avif");
+}
+
+.craving-content {
+  width: 375px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.craving-h1 p {
+  width: 375px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.craving-h2 p {
+  width: 346px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.craving-p p {
+  width: 318px;
+}
+
+.craving-order p {
+  margin-top: 10px;
+  height: 60px;
+  width: 230px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.craving-order p:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,202 @@
+.cart-order {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-section {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: antiquewhite;
+}
+
+.cart-empty {
+  height: 350px;
+  width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-summary {
+  width: 610px;
+}
+
+.cart-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cart-item {
+  display: flex;
+}
+
+.cart-hr {
+  width: 605px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-group1 {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 100px;
+}
+
+.cart-group2 {
+  display: flex;
+  justify-content: space-around;
+  width: 220px;
+  height: 100px;
+}
+
+.cart-group3 {
+  width: 45px;
+  height: 100px;
+}
+
+
+.cart-image {
+  background-image: url("../../public/homeImg/cartImage.webp");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.dish-item {
+  font-size: 16px;
+}
+
+.promo-content,
+.note-content {
+  display: flex;
+  font-size: 15px;
+}
+
+.promo-icon {
+  font-size: 14px;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.note-icon {
+  font-size: 17px;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
+.promo-code p,
+.cart-note p {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.promo-code {
+  margin-bottom: 20px;
+}
+
+.promo-input-section {
+  display: flex;
+}
+
+.promo-input {
+  height: 40px;
+  width: 250px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-bottom: 0px;
+  background-color: inherit;
+  border: 2px solid black;
+  border-right: 0px;
+}
+
+.apply-button {
+  border: 2px solid green;
+  padding: 11px 16px;
+  color: green;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply-button:hover {
+  color: white;
+  background-color: #45a049;
+}
+
+.cart-note {
+  width: 350px;
+}
+
+.note-textarea {
+  border: 2px solid black;
+  background-color: inherit;
+  resize: none;
+  border-bottom: 0;
+  /* margin-bottom: 10px; */
+}
+
+.note-submit {
+  height: 40px;
+  border: 2px solid green;
+  padding: 11px 16px;
+  color: green;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+
+.note-submit:hover {
+  color: white;
+  background-color: #45a049;
+}
+
+
+
+/** order summary **/
+.order-summary {
+  margin-left: 40px;
+  width: 280px;
+  padding-right: 40px;
+}
+
+.order-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-group p {
+  font-size: 16px;
+}
+
+.order-total p {
+  font-size: 22px;
+}
+
+.cart-payment {
+  width: 240px;
+  background-color: rgb(4, 119, 4);
+  color: white;
+}
+
+.cart-payment:hover {
+  background-color: green;
+}

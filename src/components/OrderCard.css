@@ -1,0 +1,33 @@
+.order-item {
+  width: 425px;
+  height: 185px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.item-name {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.item-detail {
+  font-size: 16px;
+  display: -webkit-box;
+  /* Enable multi-line truncation */
+  -webkit-box-orient: vertical;
+  /* Specify vertical orientation */
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  /* Hide overflowing content */
+  text-overflow: ellipsis;
+}
+
+.item-price {
+  font-size: 16px;
+}

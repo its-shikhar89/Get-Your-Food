@@ -1,0 +1,119 @@
+#contact-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 980px;
+  box-sizing: border-box;
+}
+
+
+
+/** contact **/
+#contact {
+  width: 45%;
+  margin-left: 10%;
+}
+
+#contact .part1 {
+  font-size: 40px;
+  font-weight: 800;
+  width: 431px;
+}
+
+#contact .part2 {
+  font-size: 22px;
+  font-weight: 800;
+  width: 460px;
+}
+
+.form-container {
+  width: 490px;
+  height: 383px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  font-size: 17px;
+  margin: 8px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 2px solid #333;
+  padding: 8px 5px;
+  font-size: 17px;
+  outline: none;
+  resize: none;
+}
+
+textarea {
+  border-bottom: 2px solid #333;
+}
+
+.submit-button {
+  width: 105px;
+  margin-top: 30px;
+  align-self: flex-end;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: 2px solid #333;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+
+/** timing **/
+#timing {
+  width: 45%;
+  margin-left: 20%;
+}
+
+.timing-heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.timing-t {
+  font-size: 18px;
+}
+
+@media (max-width: 980px) {
+
+  #contact,
+  #timing {
+    width: 45%;
+    margin-left: 10%;
+  }
+}
