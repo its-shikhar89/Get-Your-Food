@@ -1,13 +1,26 @@
-<<<<<<< HEAD
-# Rasoi-Ki-Khushboo
-A restaurant management system built using React.js, Redux, and Spring Boot. "Rasoi Ki Khusbhoo" offers a seamless user experience with an intuitive interface for menu browsing and table booking. Designed to enhance usability and engagement with a visually appealing dark antique white theme.
-=======
-# React + Vite
+# Rasoi-Ki-Khushboo  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview  
+**Rasoi Ki Khushboo** is a restaurant management system designed to provide a seamless and intuitive user experience. The platform allows users to browse menus and book tables effortlessly. Built with modern technologies, it ensures a responsive design.  
 
-Currently, two official plugins are available:
+## Features  
+- Interactive and responsive menu browsing.  
+- Table booking functionality for a better dining experience.  
+- A visually appealing design with a dark antique white menu theme.  
+- Efficient state management using Redux.   
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 8f619d3 (Initial Commit)
+## Technology Stack  
+- **Frontend**: React.js, Redux, CSS    
+- **Tools**: VS Code, GitHub  
+
+## Installation  
+
+### Prerequisites  
+- Node.js installed ([Download Here](https://nodejs.org/)) 
+
+### Steps to Run the Project  
+
+#### Clone the Repository  
+```bash
+git clone https://github.com/your-username/Rasoi-Ki-Khushboo.git
+cd Rasoi-Ki-Khushboo
