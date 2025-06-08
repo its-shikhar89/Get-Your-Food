@@ -1,7 +1,7 @@
-# Rasoi-Ki-Khushboo  
+# Get-Your-Food  
 
 ## Overview  
-**Rasoi Ki Khushboo** is a restaurant management system designed to provide a seamless and intuitive user experience. The platform allows users to browse menus and book tables effortlessly. Built with modern technologies, it ensures a responsive design.  
+**Get Your Food** is a restaurant management system designed to provide a seamless and intuitive user experience. The platform allows users to browse menus and book tables effortlessly. Built with modern technologies, it ensures a responsive design.  
 
 ## Features  
 - Interactive and responsive menu browsing.  
@@ -22,5 +22,5 @@
 
 #### Clone the Repository  
 ```bash
-git clone https://github.com/your-username/Rasoi-Ki-Khushboo.git
-cd Rasoi-Ki-Khushboo
+git clone https://github.com/your-username/Get-Your-Food.git
+cd Get-Your-Food
