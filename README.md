@@ -1,7 +1,7 @@
 # Get-Your-Food  
 
 ## Overview  
-**Get Your Food** is a restaurant management system designed to provide a seamless and intuitive user experience. The platform allows users to browse menus and book tables effortlessly. Built with modern technologies, it ensures a responsive design.  
+**Get Your Food** is a comprehensive restaurant management system that facilitates a seamless user experience for Browse menus, placing online orders, and booking tables. Built with modern full-stack technologies, the platform ensures a responsive and intuitive design.
 
 ## Features  
 - Interactive and responsive menu browsing.  
